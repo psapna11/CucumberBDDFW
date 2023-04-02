@@ -1,6 +1,6 @@
 Feature: Signup Feature
 
-  @test
+  @test @smoke
   Scenario: User should be able to create a brand new account with unique email address
     Given user in TalentTEK Homepage
     And user clicks on "Create new account" button
