@@ -6,16 +6,24 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import sun.security.util.Password;
+import org.testng.util.Strings;
+
 
 public class Hook extends Config {
+
     public static String url;
     public static String driverType = System.getProperty("browser");
     public static String envType = System.getProperty("env");
 
     @Before
     public void beforeEachTest(){
-        driver = setupBrowser(driverType);
+        //System.setProperty("webdriver.http.factory", "jdk-http-client");
+       driver = setupBrowser(driverType);
+//        if(Strings.isNullOrEmpty(driverType)){
+//            driverType = "chrome";
+//        }if(Strings.isNullOrEmpty(envType)){
+//            envType = "qa";
+//        }
         switch (envType){
             case "qa":
                 url = "http://www.qa.taltektc.com";

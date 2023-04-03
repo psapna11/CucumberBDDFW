@@ -25,7 +25,7 @@ public class Config extends TestData{
 
             // WebDriverManager.chromedriver().setup();//not needed if you have selenium 4.6
 
-        } else if (driverType.equalsIgnoreCase("FireFox")){
+        } else if (driverType.equalsIgnoreCase("ff")){
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
         } else if (driverType.equalsIgnoreCase("Safari")){
