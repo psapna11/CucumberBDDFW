@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-03T15:24:24 EDT" name="Surefire suite" finished-at="2023-04-03T15:24:50 EDT" duration-ms="25508">
+  <suite started-at="2023-04-15T21:13:27 EDT" name="Surefire suite" finished-at="2023-04-15T21:14:04 EDT" duration-ms="36725">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@1b1473ab]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-04-03T15:24:24 EDT" name="Surefire test" finished-at="2023-04-03T15:24:50 EDT" duration-ms="25508">
+    <test started-at="2023-04-15T21:13:27 EDT" name="Surefire test" finished-at="2023-04-15T21:14:04 EDT" duration-ms="36725">
       <class name="TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner@1b1473ab]" started-at="2023-04-03T15:24:24 EDT" name="setUpClass" finished-at="2023-04-03T15:24:25 EDT" duration-ms="331" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner@1b1473ab]" started-at="2023-04-15T21:13:27 EDT" name="setUpClass" finished-at="2023-04-15T21:13:28 EDT" duration-ms="514" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,7 +21,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@1b1473ab]" started-at="2023-04-03T15:24:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-03T15:24:31 EDT" duration-ms="6392" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@1b1473ab]" started-at="2023-04-15T21:13:28 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-15T21:13:39 EDT" duration-ms="11592" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@1b1473ab]" started-at="2023-04-03T15:24:31 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-03T15:24:36 EDT" duration-ms="4602" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@1b1473ab]" started-at="2023-04-15T21:13:39 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-15T21:13:45 EDT" duration-ms="5601" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@1b1473ab]" started-at="2023-04-03T15:24:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-03T15:24:40 EDT" duration-ms="4179" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@1b1473ab]" started-at="2023-04-15T21:13:45 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-15T21:13:51 EDT" duration-ms="5712" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@1b1473ab]" started-at="2023-04-03T15:24:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-03T15:24:44 EDT" duration-ms="4207" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@1b1473ab]" started-at="2023-04-15T21:13:51 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-15T21:13:56 EDT" duration-ms="5551" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@1b1473ab]" started-at="2023-04-03T15:24:44 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-03T15:24:49 EDT" duration-ms="5389" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@1b1473ab]" started-at="2023-04-15T21:13:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-15T21:14:03 EDT" duration-ms="7286" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner@1b1473ab]" started-at="2023-04-03T15:24:49 EDT" name="tearDownClass" finished-at="2023-04-03T15:24:50 EDT" duration-ms="365" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner@1b1473ab]" started-at="2023-04-15T21:14:03 EDT" name="tearDownClass" finished-at="2023-04-15T21:14:04 EDT" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
